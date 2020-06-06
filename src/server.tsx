@@ -15,7 +15,7 @@ server
     const markup = renderToString(
       <StaticRouter context={context} location={req.url}>
         <App />
-      </StaticRouter>,
+      </StaticRouter>
     );
 
     if (context.url) {
@@ -43,7 +43,7 @@ server
     <body>
         <div id="root">${markup}</div>
     </body>
-</html>`,
+</html>`
       );
     }
   });

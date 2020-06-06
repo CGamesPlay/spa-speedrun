@@ -24,6 +24,7 @@
     "@types/react-router-dom": "^5.1.5",
     "@types/webpack-env": "^1.15.2",
     "jest": "^25",
+    "prettier": "^2.0.5",
     "razzle-plugin-typescript": "^3.1.3",
     "ts-jest": "^25.0.0",
     "typescript": "^3.9.5"
@@ -38,7 +39,14 @@
       "<rootDir>/src/**/__tests__/**/*.(ts|js)?(x)",
       "<rootDir>/src/**/?(*.)(spec|test).(ts|js)?(x)"
     ],
-    "moduleFileExtensions": ["ts", "tsx", "js", "json"],
-    "collectCoverageFrom": ["src/**/*.{js,jsx,ts,tsx}"]
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "json"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,ts,tsx}"
+    ]
   }
 }
