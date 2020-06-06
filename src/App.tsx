@@ -3,7 +3,7 @@ import { Route, Switch } from "react-router-dom";
 import Home from "./Home";
 import "./App.css";
 
-const App = () => (
+const App = (): React.Node => (
   <Switch>
     <Route exact path="/" component={Home} />
   </Switch>

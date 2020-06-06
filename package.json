@@ -6,6 +6,7 @@
     "start": "razzle start",
     "build": "razzle build",
     "test": "razzle test --env=jsdom",
+    "lint": "eslint --cache --format codeframe --ext js,jsx,ts,tsx src",
     "start:prod": "NODE_ENV=production node build/server.js"
   },
   "dependencies": {
@@ -22,10 +23,20 @@
     "@types/react": "^16.9.35",
     "@types/react-dom": "^16.9.8",
     "@types/react-router-dom": "^5.1.5",
+    "@types/react-test-renderer": "^16.9.2",
     "@types/webpack-env": "^1.15.2",
+    "@typescript-eslint/eslint-plugin": "^3.1.0",
+    "@typescript-eslint/parser": "^3.1.0",
+    "eslint": "^7.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-jest": "^23.13.2",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-typescript": "^0.14.0",
     "jest": "^25",
     "prettier": "^2.0.5",
     "razzle-plugin-typescript": "^3.1.3",
+    "react-test-renderer": "^16.13.1",
     "ts-jest": "^25.0.0",
     "typescript": "^3.9.5"
   },
