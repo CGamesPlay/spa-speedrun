@@ -3,12 +3,13 @@ import http from "http";
 let app = require("./server").default;
 
 const server = http.createServer(app);
+const port = process.env.PORT || 3000;
 
 let currentApp = app;
 
 server
-  .listen(process.env.PORT || 3000, () => {
-    console.log("🚀 started");
+  .listen(port, () => {
+    console.log(`🚀 started at http://localhost:${port}/`);
   })
   .on("error", (error) => {
     console.log(error);
