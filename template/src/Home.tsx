@@ -3,7 +3,7 @@ import logo from "./react.svg";
 import "./Home.css";
 
 class Home extends React.Component {
-  render(): React.Node {
+  render(): React.ReactElement {
     return (
       <div className="Home">
         <div className="Home-header">

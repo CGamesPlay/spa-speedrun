@@ -24,7 +24,7 @@ To use this project template, simply download it to an empty directory and run i
 ```bash
 mkdir myproject
 cd myproject
-curl https://codeload.github.com/CGamesPlay/spa-speedrun/tar.gz/master | tar xf - --strip-components=1 spa-speedrun-master/template
+curl https://codeload.github.com/CGamesPlay/spa-speedrun/tar.gz/master | tar xf - --strip-components=2 spa-speedrun-master/template
 yarn
 yarn start
 ```
