@@ -2,6 +2,8 @@
 
 [SPA Speedrun](https://github.com/CGamesPlay/spa-speedrun) is a project template for Node.js and React. The goal is that, by starting from this repo, you'll be able to start developing your new Node.js application in less than 5 minutes.
 
+**Deprecated in favor of https://github.com/CGamesPlay/first-commits**
+
 The template is built using [Razzle](https://github.com/jaredpalmer/razzle), so you get:
 
 - A client application built in [React](https://reactjs.org).
